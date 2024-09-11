@@ -1,0 +1,28 @@
+PS C:\Users\Ryosa> cd C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/09/11      0:06                git_challenge
+
+
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work> cd C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git init 
+Initialized empty Git repository in C:/Users/Ryosa/OneDrive/デスクトップ/侍エンジニア/■work/git_challenge/.git/
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git add hello_world.txt
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) cb6caf9] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git add hello_world.txt
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git commit -m "日本語訳を追記"
+[main 6ddfe74] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> git log --oneline
+6ddfe74 (HEAD -> main) 日本語訳を追記
+cb6caf9 hello_world.txtを追加
+PS C:\Users\Ryosa\OneDrive\デスクトップ\侍エンジニア\■work\git_challenge> 
